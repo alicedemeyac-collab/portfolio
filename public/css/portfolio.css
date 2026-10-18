@@ -96,6 +96,14 @@ section { padding-block: 2.5rem; }
 .logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
 .logos li { display: inline-flex; align-items: center; gap: .5rem; border: 1px solid var(--trait); padding: .2rem .7rem; font-size: .9rem; }
 .logos i { font-size: 1.35rem; line-height: 1; color: var(--texte); }
+.logos svg { width: 1.35rem; height: 1.35rem; flex: none; fill: none; stroke: var(--texte); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Langues */
+.langues { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.langues > div { border-top: 2px solid var(--trait); padding-top: .9rem; }
+.langues h3 { font-size: 1rem; }
+.langues p { color: var(--discret); margin: 0; font-size: .95rem; }
+.niveau { display: inline-block; border: 1px solid var(--trait); padding: 0 .6rem; font-size: .85rem; margin-bottom: .5rem; }
 
 /* Contact */
 .bouton { display: inline-flex; align-items: center; gap: .55rem; }
