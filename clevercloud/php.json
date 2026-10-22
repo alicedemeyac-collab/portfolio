@@ -1,5 +1,7 @@
 {
     "deploy": {
-        "webroot": "/public"
+        "webroot": "/public",
+        "flavor": "php",
+        "version": "8.3"
     }
 }
